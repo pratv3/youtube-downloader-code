@@ -1,4 +1,6 @@
 from pytube import YouTube
+import os
+os.system("pip install git+https://github.com/Zeecka/pytube@fix_1060")
 
 print("--------------------url----------------")
 k=input("what is your url of the video::")
